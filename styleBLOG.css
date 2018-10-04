@@ -1,0 +1,19 @@
+body {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        h1,
+        p {
+            text-align: center;
+        }
+
+        h1 {
+            font-weight: normal;
+			align: center;
+        }
+
+        pre {
+            font-size: 14px;
+            margin: 0 -46px;
+        }

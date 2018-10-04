@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<title> BLOG </title>
+    
+</head>
+
+<body>
+
+
+    <h1 align="center">Есенин Сергей Александрович</h1>
+    <p align="center">— 15 марта 1916 —</p>
+    <pre align="left-side">
+        Дорогой дружище Миша,
+	Ты как вихрь, а я как замять,
+	Сбереги под тихой крышей
+	Обо мне любовь и память.
+   </pre>
+   
+<button id='newButton'>Кнопка1</button>
+
+<script>
+const newButton = document.getElementById('newButton');
+
+function changeBackground(){
+	document.body.style.background = 'yellow';
+}
+function changeBack(){
+	document.body.style.background = 'green';
+}
+newButton.addEventListener('cursor', changeBackground);
+newButton.addEventListener('click', changeBack);
+</script>
+
+<p></p>
+
+<input type="button" value="Кнопка2" id="elem">
+
+<script>
+  elem.onclick = function(event) {
+     alert("что-то произошло");
+  }
+</script>
+   
+    <form name="my">
+    <input name="one" value="">
+  </form>
+   
+   
+<a href="sait.html">НАЗАД</a>
+<img src="orig.gif"/>
+</body>
+
+</html>
